@@ -7,7 +7,7 @@ import BarChartComponent from "./BarChartComponent";
 import { IoChevronForwardCircle } from "react-icons/io5";
 import DonutChartWithText from "./Donut"
 const SecondRow= ()=>{
-     return (<div className=" w-full h-full flex  lg:flex-col flex-row justify-between px-5 items-center ">
+     return (<div className=" w-full h-full flex  flex-col sm:flex-row lg:flex-col justify-between px-5 items-center ">
      <div className="flex flex-col w-full  self-start mr-3 lg:mr-0 ">  
        <div className="w-full self-start mb-3 lg:mr-0 mr-2 p-3 h-full bg-[#202028] flex flex-row justify-between items-center  ">
           <div className="flex flex-col ">

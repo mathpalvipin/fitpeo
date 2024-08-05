@@ -38,7 +38,7 @@ const TABLE_ROWS = [
  const MyTable = ()   => {
   return (
     
-    <Card className="h-full w-full  bg-[#202028] text-white overflow-hidden">
+    <Card className="h-full w-full  bg-[#202028] text-white overflow-auto ">
       <table className="w-full min-w-max table-auto text-left   ">
         <thead>
           <tr>
