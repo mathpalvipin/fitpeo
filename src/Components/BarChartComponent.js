@@ -13,7 +13,7 @@ const BarChartComponent = () => {
     },
     plotOptions: {
       bar: {
-        borderRadius: 25,
+        borderRadius: 20,
         dataLabels: {
           position: 'center', // top, center, bottom
         },
