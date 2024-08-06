@@ -4,8 +4,8 @@ import ApexCharts from 'react-apexcharts';
 const BarChartComponent = () => {
   const options = {
     series: [{
-      name: 'Inflation',
-      data: [5000, 4500, 5100, 4800, 4500, 5000, 4700, 5100 ,4800, 4500, 5000, 4700]
+      name: 'count',
+      data: [5, 4.5, 5.1, 4.8, 4.5, 5.0, 4.7, 5.1 ,4.8, 4.5, 5.0, 4.7]
     }],
     chart: {
       height: 210,
@@ -13,9 +13,9 @@ const BarChartComponent = () => {
     },
     plotOptions: {
       bar: {
-        borderRadius: 10,
+        borderRadius: 25,
         dataLabels: {
-          position: 'none', // top, center, bottom
+          position: 'center', // top, center, bottom
         },
       }
     },
